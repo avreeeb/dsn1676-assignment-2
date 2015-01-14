@@ -6,6 +6,7 @@
 
 html {
 box-sizing: border-box;
+background-color: black;
 
 -moz-text-size-adjust: 100%;
 -ms-text-size-adjust: 100%;
@@ -18,10 +19,7 @@ text-size-adjust: 100%;
 	box-sizing: inherit;
 }
 
-.bg {
-	background-color:black;
-	margin:0;
-}
+
 
 .button {
 border-radius: 50%;
@@ -79,4 +77,15 @@ transform: rotate(4320deg);
 
 .minute-hand {
 position: absolute;
+}
+
+.center {
+width: 28px;
+position: absolute;
+bottom: calc(50% - 14px);
+left: calc(50% - 14px);
+}
+
+.bottom {
+	padding-bottom:17em;
 }
