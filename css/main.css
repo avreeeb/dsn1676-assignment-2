@@ -20,6 +20,7 @@ text-size-adjust: 100%;
 
 .bg {
 	background-color:black;
+	margin:0;
 }
 
 .button {
@@ -45,4 +46,13 @@ background-color: red;
 
 .main {
 text-align: center;
+}
+
+.clock-face {
+background-image: url(../images/clock-face.svg);
+width: 300px;
+height: 300px;
+margin-left: auto;
+margin-right: auto;
+position: relative;
 }
