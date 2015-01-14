@@ -56,3 +56,27 @@ margin-left: auto;
 margin-right: auto;
 position: relative;
 }
+
+.hand {
+width: 14px;
+bottom: 50%;
+left: calc(50% - 7px);
+transform-origin: center bottom;
+transition: 6s;
+}
+
+.clock-face:target .hour-hand {
+transform: rotate(360deg);
+}
+
+.hour-hand {
+position: absolute;
+}
+
+.clock-face:target .minute-hand {
+transform: rotate(4320deg);
+}
+
+.minute-hand {
+position: absolute;
+}
