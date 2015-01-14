@@ -18,6 +18,9 @@ text-size-adjust: 100%;
 	box-sizing: inherit;
 }
 
+.bg {
+	background-color:black;
+}
 
 .button {
 border-radius: 50%;
