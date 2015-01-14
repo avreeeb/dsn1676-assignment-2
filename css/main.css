@@ -35,6 +35,11 @@ display: inline-block;
 background-color: green;
 }
 
+.button-backwards {
+display: inline-block;
+background-color: red;
+}
+
 .main {
 text-align: center;
 }
